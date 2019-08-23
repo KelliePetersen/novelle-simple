@@ -1,0 +1,25 @@
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  font-family: 'Roboto', arial, sans-serif;
+  font-size: 1rem;
+  -webkit-tap-highlight-color: transparent;
+}
+
+img {
+  max-width: 100%;
+  max-height: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
