@@ -15,3 +15,9 @@
     @mixin-content;
   }
 }
+
+@define-mixin atUltra {
+  @media (min-width: 2200px) {
+    @mixin-content;
+  }
+}

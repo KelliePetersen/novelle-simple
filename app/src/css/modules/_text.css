@@ -1,0 +1,24 @@
+.text {
+
+  &__paragraph {
+    line-height: 1.75;
+    color: var(--gray);
+    responsive-font-size: 1.125rem;
+  }
+
+  &__heading {
+    font-family: 'Playfair Display', 'Cormorant Garamond';
+    font-weight: 400;
+    responsive-font-size: 3rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+  }
+
+  &--big {
+    responsive-font-size: 3.25rem;
+  }
+
+  &--short {
+    width: 500px;
+  }
+}

@@ -350,9 +350,9 @@ template {
 }
 
 :root {
-  --black: #212121;
+  --black: #333;
   --white: #e6e6e6;
-  --gray: #252525;
+  --gray: #666;
   --main-color: #d34a4a;
 }
 
@@ -368,7 +368,7 @@ html, body {
 }
 
 body {
-  font-family: 'Roboto', arial, sans-serif;
+  font-family: 'Work Sans', arial, sans-serif;
   font-size: 1rem;
   -webkit-tap-highlight-color: transparent;
 }
@@ -592,4 +592,120 @@ html.sr .heading {
 
 .back-to-top--hidden {
     display: none;
+  }
+
+.line {
+  height: 2px;
+  width: 90px;
+  background-color: var(--gray);
+}
+
+.button {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 20px;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  font-weight: 700;
+}
+
+.text__paragraph {
+    line-height: 1.75;
+    color: var(--gray);
+    font-size: 1.125rem;
+  }
+
+@media (max-width: 768px), (max-height: 768px) {
+
+  .text__paragraph {
+    font-size: calc(1.00313rem + 0.25391vmin);
+  }
+}
+
+.text__heading {
+    font-family: 'Playfair Display', 'Cormorant Garamond';
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+  }
+
+@media (max-width: 768px), (max-height: 768px) {
+
+  .text__heading {
+    font-size: calc(1.05rem + 4.0625vmin);
+  }
+}
+
+.text--big {
+    font-size: 3.25rem;
+  }
+
+@media (max-width: 768px), (max-height: 768px) {
+
+  .text--big {
+    font-size: calc(1.05625rem + 4.57031vmin);
+  }
+}
+
+.text--short {
+    width: 500px;
+  }
+
+.hero {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.hero__image {
+    height: 100%;
+  }
+
+@media (min-width: 2200px) {
+
+.hero__image {
+      margin-left: 200px
+  }
+  }
+
+.hero__page {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-color: var(--white);
+  }
+
+.hero__container {
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+    width: 700px;
+  }
+
+.hero__subheading {
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: var(--gray);
+    margin-top: 40px;
+    font-size: 1.25rem;
+  }
+
+@media (max-width: 768px), (max-height: 768px) {
+
+  .hero__subheading {
+    font-size: calc(1.00625rem + 0.50781vmin);
+  }
+}
+
+.hero__link {
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
+    text-decoration: none;
+    color: var(--gray);
+    font-weight: 600;
   }

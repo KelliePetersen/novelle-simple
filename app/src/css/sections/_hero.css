@@ -1,0 +1,47 @@
+.hero {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+
+  &__image {
+    height: 100%;
+
+    @mixin atUltra {
+      margin-left: 200px;
+    }
+  }
+
+  &__page {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-color: var(--white);
+  }
+
+  &__container {
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+    width: 700px;
+  }
+
+  &__subheading {
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: var(--gray);
+    margin-top: 40px;
+    responsive-font-size: 1.25rem;
+  }
+
+  &__link {
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
+    text-decoration: none;
+    color: var(--gray);
+    font-weight: 600;
+  }
+}
