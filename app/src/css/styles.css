@@ -11,4 +11,6 @@
 @import "modules/_line";
 @import "modules/_button";
 @import "modules/_text";
+@import "modules/_section";
 @import "sections/_hero";
+@import "sections/_intro";

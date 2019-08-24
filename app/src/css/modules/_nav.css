@@ -65,10 +65,15 @@
     padding: 20px 40px;
   }
 
+  &--hidden {
+    opacity: 0;
+  }
+
   &--fixed {
     position: fixed;
-    background-color: var(--white);
+    background-color: var(--pure-white);
     height: 80px;
-    transition: background 0.75s;
+    opacity: 1;
+    transition: opacity 0.75s;
   }
 }

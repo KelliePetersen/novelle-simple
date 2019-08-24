@@ -352,6 +352,7 @@ template {
 :root {
   --black: #333;
   --white: #f9f9f9ff;
+  --pure-white: #fff;
   --gray: #808080;
   --main-color: #d34a4a;
 }
@@ -607,11 +608,16 @@ html.sr .heading {
     padding: 20px 40px;
   }
 
+.nav--hidden {
+    opacity: 0;
+  }
+
 .nav--fixed {
     position: fixed;
-    background-color: var(--white);
+    background-color: var(--pure-white);
     height: 80px;
-    transition: background 0.75s;
+    opacity: 1;
+    transition: opacity 0.75s;
   }
 
 .back-to-top {
@@ -704,6 +710,10 @@ html.sr .heading {
     width: 500px;
   }
 
+.section {
+  margin: 250px auto;
+}
+
 .hero {
   position: relative;
   width: 100vw;
@@ -761,4 +771,11 @@ html.sr .heading {
     text-decoration: none;
     color: var(--gray);
     font-weight: 600;
+  }
+
+.intro__container {
+    display: grid;
+    grid-template-columns: 500px auto;
+    grid-column-gap: 150px;
+    max-width: 1400px;
   }
