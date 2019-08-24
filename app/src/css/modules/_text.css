@@ -40,4 +40,8 @@
   &--short {
     width: 500px;
   }
+
+  &--white {
+    color: var(--white);
+  }
 }
