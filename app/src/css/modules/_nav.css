@@ -20,13 +20,15 @@
     color: var(--white);
 
     &--small {
-      transform: scale(0.8);
-      transform-origin: center left;
+      font-size: 1rem;
+      letter-spacing: 8px;
       color: var(--black);
     }
 
     &--small  &-span {
       border-color: var(--black);
+      padding: 5px 9px;
+      margin-right: 10px;
     }
   }
 

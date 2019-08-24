@@ -1,0 +1,15 @@
+.footer {
+
+  &__subfooter {
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 0.75rem;
+    text-align: center;
+    align-items: center;
+  }
+
+  &__copyright {
+    padding: 25px;
+    margin: 0;
+  }
+}

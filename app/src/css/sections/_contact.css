@@ -1,0 +1,92 @@
+.contact {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  margin: 250px 0 0 0;
+
+  &__image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+  }
+
+  &__page {
+    position: relative;
+    z-index: 5;
+    background-color: var(--white);
+    width: 50%;
+    height: 100%;
+  }
+
+  &__container {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: max-content;
+  }
+
+  &__text {
+    width: 85%;
+    max-width: 500px;
+  }
+
+  &__form {
+    width: 100%;
+    max-width: 550px;
+    margin-top: 100px;
+  }
+
+  &__label {
+    display: block;
+    color: var(--gray);
+    font-size: 0.875em;
+    letter-spacing: 0.5px;
+  }
+
+  &__input, &__message {
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: transparent;
+    color: var(--gray);
+  }
+
+  &__input {
+    border: none;
+    border-bottom: solid 2px var(--gray);
+  }
+
+  &__message {
+    margin-top: 5px;
+    border: solid 2px var(--gray);
+  }
+
+  &__submit {
+    border: none;
+    margin: 0 auto;
+    letter-spacing: 1px;
+
+    @mixin atMedium {
+      display: inline-block;
+    }
+  }
+
+  &__aside {
+    text-align: center;
+    font-size: 0.875em;
+    color: var(--gray);
+    letter-spacing: 0.5px;
+
+    @mixin atMedium {
+      display: inline-block;
+      width: 300px;
+    }
+  }
+
+  &__aside-span {
+    color: var(--black);
+    text-decoration: none;
+    border-bottom: 1px solid var(--black);
+  }
+}
