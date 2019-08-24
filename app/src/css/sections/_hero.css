@@ -33,6 +33,7 @@
     letter-spacing: 2px;
     color: var(--gray);
     margin-top: 40px;
+    margin-bottom: 0;
     responsive-font-size: 1.25rem;
   }
 

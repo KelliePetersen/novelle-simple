@@ -351,8 +351,8 @@ template {
 
 :root {
   --black: #333;
-  --white: #e6e6e6;
-  --gray: #666;
+  --white: #f9f9f9ff;
+  --gray: #808080;
   --main-color: #d34a4a;
 }
 
@@ -540,22 +540,56 @@ html.sr .heading {
   }
 
 .nav {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100px;
+  height: 120px;
+  z-index: 10;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  z-index: 10;
+  padding: 0 50px;
+  transition: 0s;
 }
+
+.nav__logo {
+    font-family: 'Playfair Display', 'Cormorant Garamond';
+    font-weight: 400;
+    font-size: 1.5rem;
+    letter-spacing: 12px;
+    text-decoration: none;
+    color: var(--white);
+  }
+
+.nav__logo--small {
+      transform: scale(0.8);
+      transform-origin: center left;
+      color: var(--black);
+    }
+
+.nav__logo--small  .nav__logo-span {
+      border-color: var(--black);
+    }
+
+.nav__logo-span {
+    display: inline-block;
+    padding: 5px 14px;
+    border: 2px solid var(--white);
+    letter-spacing: 0;
+    margin-right: 15px;
+  }
 
 .nav__list {
     margin: 0;
     padding: 0;
     display: flex;
   }
+
+.nav__list--small {
+      transform: scale(0.8);
+      transform-origin: center right;
+    }
 
 .nav__section {
     margin: 25px;
@@ -565,6 +599,19 @@ html.sr .heading {
 .nav__link {
     text-decoration: none;
     color: var(--black);
+    font-weight: 600;
+  }
+
+.nav__contact {
+    border: 3px solid var(--black);
+    padding: 20px 40px;
+  }
+
+.nav--fixed {
+    position: fixed;
+    background-color: var(--white);
+    height: 80px;
+    transition: background 0.75s;
   }
 
 .back-to-top {
@@ -601,12 +648,17 @@ html.sr .heading {
 }
 
 .button {
+  display: block;
   background-color: var(--black);
   color: var(--white);
-  padding: 20px;
+  padding: 20px 30px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
   font-weight: 700;
+  margin-top: 80px;
 }
 
 .text__paragraph {
@@ -691,6 +743,7 @@ html.sr .heading {
     letter-spacing: 2px;
     color: var(--gray);
     margin-top: 40px;
+    margin-bottom: 0;
     font-size: 1.25rem;
   }
 

@@ -1,7 +1,10 @@
 .button {
+  display: block;
   background-color: var(--black);
   color: var(--white);
-  padding: 20px;
+  padding: 20px 30px;
+  width: max-content;
   text-decoration-line: none;
   font-weight: 700;
+  margin-top: 80px;
 }

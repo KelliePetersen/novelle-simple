@@ -1,18 +1,52 @@
 .nav {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100px;
+  height: 120px;
+  z-index: 10;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  z-index: 10;
+  padding: 0 50px;
+  transition: 0s;
+
+  &__logo {
+    font-family: 'Playfair Display', 'Cormorant Garamond';
+    font-weight: 400;
+    font-size: 1.5rem;
+    letter-spacing: 12px;
+    text-decoration: none;
+    color: var(--white);
+
+    &--small {
+      transform: scale(0.8);
+      transform-origin: center left;
+      color: var(--black);
+    }
+
+    &--small  &-span {
+      border-color: var(--black);
+    }
+  }
+
+  &__logo-span {
+    display: inline-block;
+    padding: 5px 14px;
+    border: 2px solid var(--white);
+    letter-spacing: 0;
+    margin-right: 15px;
+  }
 
   &__list {
     margin: 0;
     padding: 0;
     display: flex;
+
+    &--small {
+      transform: scale(0.8);
+      transform-origin: center right;
+    }
   }
 
   &__section {
@@ -23,5 +57,18 @@
   &__link {
     text-decoration: none;
     color: var(--black);
+    font-weight: 600;
+  }
+
+  &__contact {
+    border: 3px solid var(--black);
+    padding: 20px 40px;
+  }
+
+  &--fixed {
+    position: fixed;
+    background-color: var(--white);
+    height: 80px;
+    transition: background 0.75s;
   }
 }
