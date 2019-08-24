@@ -653,6 +653,10 @@ html.sr .heading {
   background-color: var(--gray);
 }
 
+.line--center {
+    margin: 0 auto;
+  }
+
 .button {
   display: block;
   background-color: var(--black);
@@ -663,7 +667,7 @@ html.sr .heading {
   width: max-content;
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
-  font-weight: 700;
+  font-weight: 600;
   margin-top: 80px;
 }
 
@@ -686,12 +690,28 @@ html.sr .heading {
     font-size: 3rem;
     line-height: 1.5;
     letter-spacing: 1px;
+    margin-top: 0;
   }
 
 @media (max-width: 768px), (max-height: 768px) {
 
   .text__heading {
     font-size: calc(1.05rem + 4.0625vmin);
+  }
+}
+
+.text__subheading {
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: var(--gray);
+    font-size: 1.25rem;
+    margin: 0;
+  }
+
+@media (max-width: 768px), (max-height: 768px) {
+
+  .text__subheading {
+    font-size: calc(1.00625rem + 0.50781vmin);
   }
 }
 
@@ -724,13 +744,6 @@ html.sr .heading {
     height: 100%;
   }
 
-@media (min-width: 2200px) {
-
-.hero__image {
-      margin-left: 200px
-  }
-  }
-
 .hero__page {
     position: absolute;
     top: 0;
@@ -749,20 +762,9 @@ html.sr .heading {
   }
 
 .hero__subheading {
-    font-weight: 600;
-    letter-spacing: 2px;
-    color: var(--gray);
     margin-top: 40px;
     margin-bottom: 0;
-    font-size: 1.25rem;
   }
-
-@media (max-width: 768px), (max-height: 768px) {
-
-  .hero__subheading {
-    font-size: calc(1.00625rem + 0.50781vmin);
-  }
-}
 
 .hero__link {
     position: absolute;
@@ -778,4 +780,25 @@ html.sr .heading {
     grid-template-columns: 500px auto;
     grid-column-gap: 150px;
     max-width: 1400px;
+  }
+
+.services__container {
+    width: 1200px;
+    text-align: center;
+  }
+
+.services__grid {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-column-gap: 100px;
+    grid-row-gap: 50px;
+    margin: 80px auto 0 auto;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
+
+.services__subheading {
+    color: var(--black);
+    font-weight: 600;
   }

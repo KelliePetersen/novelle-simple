@@ -1,0 +1,21 @@
+.services {
+
+  &__container {
+    width: 1200px;
+    text-align: center;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-column-gap: 100px;
+    grid-row-gap: 50px;
+    margin: 80px auto 0 auto;
+    width: max-content;
+  }
+
+  &__subheading {
+    color: var(--black);
+    font-weight: 600;
+  }
+}

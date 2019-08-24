@@ -5,10 +5,6 @@
 
   &__image {
     height: 100%;
-
-    @mixin atUltra {
-      margin-left: 200px;
-    }
   }
 
   &__page {
@@ -29,12 +25,8 @@
   }
 
   &__subheading {
-    font-weight: 600;
-    letter-spacing: 2px;
-    color: var(--gray);
     margin-top: 40px;
     margin-bottom: 0;
-    responsive-font-size: 1.25rem;
   }
 
   &__link {

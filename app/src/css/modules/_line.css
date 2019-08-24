@@ -2,4 +2,8 @@
   height: 2px;
   width: 90px;
   background-color: var(--gray);
+
+  &--center {
+    margin: 0 auto;
+  }
 }

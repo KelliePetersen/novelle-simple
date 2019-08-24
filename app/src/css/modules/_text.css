@@ -12,6 +12,15 @@
     responsive-font-size: 3rem;
     line-height: 1.5;
     letter-spacing: 1px;
+    margin-top: 0;
+  }
+
+  &__subheading {
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: var(--gray);
+    responsive-font-size: 1.25rem;
+    margin: 0;
   }
 
   &--big {
