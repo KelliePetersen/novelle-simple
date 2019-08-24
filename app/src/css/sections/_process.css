@@ -1,0 +1,11 @@
+.process {
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    margin: 80px auto 0 auto;
+    width: max-content;
+  }
+}

@@ -12,7 +12,8 @@
     responsive-font-size: 3rem;
     line-height: 1.5;
     letter-spacing: 1px;
-    margin-top: 0;
+    margin: 0 auto 40px auto;
+    width: 770px;
   }
 
   &__subheading {
@@ -21,6 +22,11 @@
     color: var(--gray);
     responsive-font-size: 1.25rem;
     margin: 0;
+  }
+
+  &__item-heading {
+    color: var(--black);
+    font-weight: 600;    
   }
 
   &--big {
