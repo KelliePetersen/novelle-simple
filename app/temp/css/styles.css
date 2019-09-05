@@ -447,8 +447,8 @@ html.sr .heading {
 
 .menu {
   position: fixed;
-  top: 12px;
-  right: 20px;
+  top: 0;
+  right: 0;
   width: 50px;
   height: 50px;
   z-index: 15;
@@ -474,18 +474,8 @@ html.sr .heading {
     right: 0;
     width: 50px;
     height: 50px;
-    border-radius: 50%;
-    background-color: var(--gray);
-    transition: 0.5s;
-    transition-timing-function: ease-in;
+    background-color: var(--black);
   }
-
-.menu__background--is-open {
-      transform: scale(40);
-      top: 50vh;
-      right: 50vw;
-      background-color: var(--main-color);
-    }
 
 .menu__button {
     cursor: pointer;
@@ -758,6 +748,9 @@ html.sr .heading {
 
 .hero__image {
     height: 100%;
+    min-width: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 
 .hero__page {
@@ -773,7 +766,7 @@ html.sr .heading {
 .hero__container {
     position: absolute;
     top: 50%;
-    left: 50px;
+    left: 100px;
     transform: translateY(-50%);
   }
 
@@ -824,7 +817,9 @@ html.sr .heading {
 .work {
   position: relative;
   width: 100vw;
-  height: 850px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
   background-color: var(--black);
 }
 
@@ -832,14 +827,13 @@ html.sr .heading {
     display: grid;
     grid-template-columns: 400px 900px;
     grid-column-gap: 100px;
+    grid-row-gap: 150px;
     align-items: center;
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    padding: 250px 0;
   }
 
 .process__container {

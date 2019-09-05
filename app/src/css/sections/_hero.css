@@ -5,6 +5,8 @@
 
   &__image {
     height: 100%;
+    min-width: 50%;
+    object-fit: cover;
   }
 
   &__page {
@@ -20,7 +22,7 @@
   &__container {
     position: absolute;
     top: 50%;
-    left: 50px;
+    left: 100px;
     transform: translateY(-50%);
   }
 

@@ -1,7 +1,7 @@
 .menu {
   position: fixed;
-  top: 12px;
-  right: 20px;
+  top: 0;
+  right: 0;
   width: 50px;
   height: 50px;
   z-index: 15;
@@ -22,17 +22,7 @@
     right: 0;
     width: 50px;
     height: 50px;
-    border-radius: 50%;
-    background-color: var(--gray);
-    transition: 0.5s;
-    transition-timing-function: ease-in;
-
-    &--is-open {
-      transform: scale(40);
-      top: 50vh;
-      right: 50vw;
-      background-color: var(--main-color);
-    }
+    background-color: var(--black);
   }
 
   &__button {
