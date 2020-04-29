@@ -1102,7 +1102,8 @@ html.sr .heading {
   position: relative;
   width: 100vw;
   height: 100vh;
-  margin: 250px 0 0 0;
+  min-height: 700px;
+  margin: 150px 0 0 0;
 }
 
 .contact__image {
