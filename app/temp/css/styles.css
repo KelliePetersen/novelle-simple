@@ -535,7 +535,7 @@ html.sr .heading {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 120px;
+  height: 80px;
   z-index: 10;
   display: flex;
   align-items: center;
@@ -544,13 +544,28 @@ html.sr .heading {
   transition: 0s;
 }
 
+@media (min-width: 768px) {
+
+.nav {
+    height: 120px
+}
+  }
+
 .nav__logo {
     font-family: 'Playfair Display', 'Cormorant Garamond';
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1rem;
     letter-spacing: 12px;
     text-decoration: none;
-    color: var(--white);
+    color: var(--black);
+  }
+
+@media (min-width: 768px) {
+
+.nav__logo {
+      font-size: 1.5rem;
+      color: var(--white)
+  }
   }
 
 .nav__logo--small {
@@ -568,9 +583,16 @@ html.sr .heading {
 .nav__logo-span {
     display: inline-block;
     padding: 5px 14px;
-    border: 2px solid var(--white);
+    border: 2px solid var(--black);
     letter-spacing: 0;
     margin-right: 15px;
+  }
+
+@media (min-width: 768px) {
+
+.nav__logo-span {
+      border: 2px solid var(--white)
+  }
   }
 
 .nav__list {
@@ -746,10 +768,24 @@ html.sr .heading {
     color: var(--white);
   }
 
+.text--hidden {
+    display: none;
+  }
+
+@media (min-width: 768px) {
+
+.text--hidden {
+      display: inline
+  }
+  }
+
+@media (min-width: 768px) {
+
 .section {
-  margin: 100px auto 0 auto;
-  padding-top: 100px;
+    margin: 100px auto 0 auto;
+    padding-top: 100px
 }
+  }
 
 .hero {
   position: relative;
@@ -820,10 +856,21 @@ html.sr .heading {
   }
 
 .intro__container {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: 500px auto;
-    grid-column-gap: 100px;
-    max-width: 1200px;
+    row-gap: 50px;
+  }
+
+@media (min-width: 1200px) {
+
+.intro__container {
+      grid-template-columns: 500px auto;
+      grid-column-gap: 100px;
+      max-width: 1200px;
+      align-items: center
+  }
   }
 
 .services__container {

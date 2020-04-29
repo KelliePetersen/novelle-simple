@@ -1,9 +1,17 @@
 .intro {
 
   &__container {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: 500px auto;
-    grid-column-gap: 100px;
-    max-width: 1200px;
+    row-gap: 50px;
+
+    @mixin atLarge {
+      grid-template-columns: 500px auto;
+      grid-column-gap: 100px;
+      max-width: 1200px;
+      align-items: center;
+    }
   }
 }

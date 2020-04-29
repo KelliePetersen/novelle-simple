@@ -40,4 +40,10 @@
   &--white {
     color: var(--white);
   }
+  &--hidden {
+    display: none;
+    @mixin atMedium {
+      display: inline;
+    }
+  }
 }
