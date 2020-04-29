@@ -43,8 +43,12 @@
   &__list {
     margin: 0;
     padding: 0;
-    display: flex;
+    display: none;
     font-size: 0.8rem;
+
+    @mixin atLarge {
+      display: flex;
+    }
 
     &--small {
       transform: scale(0.8);

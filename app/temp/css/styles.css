@@ -576,8 +576,15 @@ html.sr .heading {
 .nav__list {
     margin: 0;
     padding: 0;
-    display: flex;
+    display: none;
     font-size: 0.8rem;
+  }
+
+@media (min-width: 1200px) {
+
+.nav__list {
+      display: flex
+  }
   }
 
 .nav__list--small {
