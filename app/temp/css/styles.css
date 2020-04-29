@@ -650,6 +650,10 @@ html.sr .heading {
     margin: 0 auto;
   }
 
+.line--m-bottom {
+    margin-bottom: 40px;
+  }
+
 .button {
   display: block;
   background-color: var(--black);
@@ -764,8 +768,8 @@ html.sr .heading {
 .intro__container {
     display: grid;
     grid-template-columns: 500px auto;
-    grid-column-gap: 150px;
-    max-width: 1400px;
+    grid-column-gap: 100px;
+    max-width: 1200px;
   }
 
 .services__container {

@@ -6,4 +6,8 @@
   &--center {
     margin: 0 auto;
   }
+
+  &--m-bottom {
+    margin-bottom: 40px;
+  }
 }
