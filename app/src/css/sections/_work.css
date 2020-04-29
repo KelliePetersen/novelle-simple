@@ -7,12 +7,19 @@
 
   &__container {
     display: grid;
-    grid-template-columns: 400px 700px;
-    grid-column-gap: 100px;
-    grid-row-gap: 150px;
-    align-items: center;
-    width: max-content;
+    width: 80%;
+    max-width: 500px;
     margin: 0 auto;
-    padding: 150px 0;
+    padding: 100px 0;
+    row-gap: 50px;
+
+    @mixin atLarge {
+      grid-template-columns: 400px minmax(400px, auto);
+      grid-column-gap: 100px;
+      grid-row-gap: 150px;
+      align-items: center;
+      max-width: 1200px;
+      padding: 150px 0;
+    }
   }
 }
