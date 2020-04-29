@@ -587,6 +587,14 @@ html.sr .heading {
   }
   }
 
+.nav__list:hover .nav__link {
+      color: lightgray;
+    }
+
+.nav__list:hover .nav__link:hover {
+      color: var(--black);
+    }
+
 .nav__list--small {
       transform: scale(0.8);
       transform-origin: center right;
@@ -601,12 +609,22 @@ html.sr .heading {
     text-decoration: none;
     color: var(--black);
     font-weight: 600;
+    transition: color 0.25s;
   }
 
 .nav__contact {
+    text-decoration: none;
+    color: var(--black);
+    font-weight: 600;
     border: 3px solid var(--black);
     padding: 20px 40px;
+    transition: all 0.2s;
   }
+
+.nav__contact:hover {
+      background-color: var(--black);
+      color: white;
+    }
 
 .nav--hidden {
     opacity: 0;
@@ -993,6 +1011,7 @@ html.sr .heading {
     border: none;
     margin: 0 auto;
     letter-spacing: 1px;
+    cursor: pointer;
   }
 
 @media (min-width: 768px) {

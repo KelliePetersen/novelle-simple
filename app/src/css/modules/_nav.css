@@ -50,6 +50,14 @@
       display: flex;
     }
 
+    &:hover .nav__link {
+      color: lightgray;
+    }
+
+    &:hover .nav__link:hover {
+      color: var(--black);
+    }
+
     &--small {
       transform: scale(0.8);
       transform-origin: center right;
@@ -65,11 +73,21 @@
     text-decoration: none;
     color: var(--black);
     font-weight: 600;
+    transition: color 0.25s;
   }
 
   &__contact {
+    text-decoration: none;
+    color: var(--black);
+    font-weight: 600;
     border: 3px solid var(--black);
     padding: 20px 40px;
+    transition: all 0.2s;
+
+    &:hover {
+      background-color: var(--black);
+      color: white;
+    }
   }
 
   &--hidden {
