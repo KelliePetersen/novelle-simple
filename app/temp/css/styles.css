@@ -717,7 +717,8 @@ html.sr .heading {
   }
 
 .section {
-  margin: 250px auto;
+  margin: 100px auto 0 auto;
+  padding-top: 100px;
 }
 
 .hero {
@@ -802,6 +803,7 @@ html.sr .heading {
   height: -moz-max-content;
   height: max-content;
   background-color: var(--black);
+  margin-top: 150px;
 }
 
 .work__container {
@@ -814,7 +816,7 @@ html.sr .heading {
     width: -moz-max-content;
     width: max-content;
     margin: 0 auto;
-    padding: 250px 0;
+    padding: 150px 0;
   }
 
 .process__container {
@@ -843,7 +845,6 @@ html.sr .heading {
     display: grid;
     grid-template-columns: 500px auto;
     grid-column-gap: 150px;
-    margin: 0 auto;
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
@@ -942,12 +943,13 @@ html.sr .heading {
 .contact__text {
     width: 85%;
     max-width: 500px;
+    margin-top: -20px;
   }
 
 .contact__form {
     width: 100%;
     max-width: 550px;
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
 .contact__label {
@@ -1017,6 +1019,6 @@ html.sr .heading {
   }
 
 .footer__copyright {
-    padding: 25px;
+    padding: 15px;
     margin: 0;
   }
