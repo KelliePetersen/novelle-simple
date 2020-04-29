@@ -14,7 +14,7 @@
   &__page {
     position: relative;
     z-index: 5;
-    background-color: var(--white);
+    background-color: white;
     width: 50%;
     height: 100%;
   }

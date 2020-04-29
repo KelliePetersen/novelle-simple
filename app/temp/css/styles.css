@@ -760,7 +760,7 @@ html.sr .heading {
     min-width: 800px;
     width: 50%;
     height: 100%;
-    background-color: var(--white);
+    background-color: white;
   }
 
 .hero__container {
@@ -943,7 +943,7 @@ html.sr .heading {
 .contact__page {
     position: relative;
     z-index: 5;
-    background-color: var(--white);
+    background-color: white;
     width: 50%;
     height: 100%;
   }
