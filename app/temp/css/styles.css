@@ -654,6 +654,11 @@ html.sr .heading {
     margin-bottom: 40px;
   }
 
+.line--m-top {
+    margin-top: -15px;
+    margin-bottom: 25px;
+  }
+
 .button {
   display: block;
   background-color: var(--black);
@@ -808,7 +813,7 @@ html.sr .heading {
 
 .work__container {
     display: grid;
-    grid-template-columns: 400px 900px;
+    grid-template-columns: 400px 700px;
     grid-column-gap: 100px;
     grid-row-gap: 150px;
     align-items: center;
@@ -844,10 +849,11 @@ html.sr .heading {
 .about__container {
     display: grid;
     grid-template-columns: 500px auto;
-    grid-column-gap: 150px;
+    grid-column-gap: 100px;
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
+    max-width: 90%;
     align-items: center;
   }
 

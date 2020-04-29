@@ -3,8 +3,9 @@
   &__container {
     display: grid;
     grid-template-columns: 500px auto;
-    grid-column-gap: 150px;
+    grid-column-gap: 100px;
     width: max-content;
+    max-width: 90%;
     align-items: center;
   }
 
