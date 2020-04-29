@@ -1,4 +1,5 @@
 .section {
+  padding-top: 100px;
 
   @mixin atMedium {
     margin: 100px auto 0 auto;
