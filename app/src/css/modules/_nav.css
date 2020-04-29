@@ -44,6 +44,7 @@
     margin: 0;
     padding: 0;
     display: flex;
+    font-size: 0.8rem;
 
     &--small {
       transform: scale(0.8);

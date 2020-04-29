@@ -577,6 +577,7 @@ html.sr .heading {
     margin: 0;
     padding: 0;
     display: flex;
+    font-size: 0.8rem;
   }
 
 .nav__list--small {
@@ -660,26 +661,19 @@ html.sr .heading {
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
   font-weight: 600;
-  margin-top: 80px;
+  margin-top: 50px;
 }
 
 .text__paragraph {
     line-height: 1.75;
     color: var(--gray);
-    font-size: 1.125rem;
+    font-size: 1rem;
   }
-
-@media (max-width: 768px), (max-height: 768px) {
-
-  .text__paragraph {
-    font-size: calc(1.00313rem + 0.25391vmin);
-  }
-}
 
 .text__heading {
     font-family: 'Playfair Display', 'Cormorant Garamond';
     font-weight: 400;
-    font-size: 3rem;
+    font-size: 2.75rem;
     line-height: 1.5;
     letter-spacing: 1px;
     margin: 0 auto 40px 0;
@@ -689,24 +683,17 @@ html.sr .heading {
 @media (max-width: 768px), (max-height: 768px) {
 
   .text__heading {
-    font-size: calc(1.05rem + 4.0625vmin);
+    font-size: calc(1.04375rem + 3.55469vmin);
   }
 }
 
 .text__subheading {
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: 2px;
     color: var(--gray);
-    font-size: 1.25rem;
+    font-size: 1rem;
     margin: 0;
   }
-
-@media (max-width: 768px), (max-height: 768px) {
-
-  .text__subheading {
-    font-size: calc(1.00625rem + 0.50781vmin);
-  }
-}
 
 .text__item-heading {
     color: var(--black);
@@ -717,19 +704,8 @@ html.sr .heading {
     margin-left: auto;
   }
 
-.text--big {
-    font-size: 3.25rem;
-  }
-
-@media (max-width: 768px), (max-height: 768px) {
-
-  .text--big {
-    font-size: calc(1.05625rem + 4.57031vmin);
-  }
-}
-
 .text--short {
-    width: 500px;
+    width: 450px;
   }
 
 .text--white {
@@ -744,6 +720,7 @@ html.sr .heading {
   position: relative;
   width: 100vw;
   height: 100vh;
+  min-height: 700px;
 }
 
 .hero__image {
@@ -768,6 +745,7 @@ html.sr .heading {
     top: 50%;
     left: 100px;
     transform: translateY(-50%);
+    width: 70%;
   }
 
 .hero__subheading {
@@ -777,8 +755,7 @@ html.sr .heading {
 
 .hero__link {
     position: absolute;
-    left: 50px;
-    bottom: 20px;
+    bottom: -125px;
     text-decoration: none;
     color: var(--gray);
     font-weight: 600;

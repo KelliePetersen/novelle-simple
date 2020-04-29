@@ -3,13 +3,13 @@
   &__paragraph {
     line-height: 1.75;
     color: var(--gray);
-    responsive-font-size: 1.125rem;
+    responsive-font-size: 1rem;
   }
 
   &__heading {
     font-family: 'Playfair Display', 'Cormorant Garamond';
     font-weight: 400;
-    responsive-font-size: 3rem;
+    responsive-font-size: 2.75rem;
     line-height: 1.5;
     letter-spacing: 1px;
     margin: 0 auto 40px 0;
@@ -17,10 +17,10 @@
   }
 
   &__subheading {
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: 2px;
     color: var(--gray);
-    responsive-font-size: 1.25rem;
+    responsive-font-size: 1rem;
     margin: 0;
   }
 
@@ -33,12 +33,8 @@
     margin-left: auto;
   }
 
-  &--big {
-    responsive-font-size: 3.25rem;
-  }
-
   &--short {
-    width: 500px;
+    width: 450px;
   }
 
   &--white {

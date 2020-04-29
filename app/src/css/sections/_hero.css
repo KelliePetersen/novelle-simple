@@ -2,6 +2,7 @@
   position: relative;
   width: 100vw;
   height: 100vh;
+  min-height: 700px;
 
   &__image {
     height: 100%;
@@ -24,6 +25,7 @@
     top: 50%;
     left: 100px;
     transform: translateY(-50%);
+    width: 70%;
   }
 
   &__subheading {
@@ -33,8 +35,7 @@
 
   &__link {
     position: absolute;
-    left: 50px;
-    bottom: 20px;
+    bottom: -125px;
     text-decoration: none;
     color: var(--gray);
     font-weight: 600;
