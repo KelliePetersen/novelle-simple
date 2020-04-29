@@ -14,18 +14,28 @@
     position: absolute;
     top: 0;
     right: 0;
-    min-width: 800px;
-    width: 50%;
     height: 100%;
+    width: 100%;
     background-color: white;
+    
+    @mixin atMedium {
+      min-width: 800px;
+      width: 50%;
+    }
   }
 
   &__container {
     position: absolute;
     top: 50%;
-    left: 100px;
-    transform: translateY(-50%);
-    width: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+
+    @mixin atMedium {
+      left: 100px;
+      transform: translateY(-50%);
+      width: 70%;
+    }
   }
 
   &__subheading {
@@ -34,10 +44,14 @@
   }
 
   &__link {
-    position: absolute;
-    bottom: -125px;
-    text-decoration: none;
-    color: var(--gray);
-    font-weight: 600;
+    display: none;
+    
+    @mixin atLarge {
+      position: absolute;
+      bottom: -125px;
+      text-decoration: none;
+      color: var(--gray);
+      font-weight: 600;
+    }
   }
 }
