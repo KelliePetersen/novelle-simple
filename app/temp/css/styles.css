@@ -781,6 +781,7 @@ html.sr .heading {
 
 .section {
   padding-top: 100px;
+  margin: 0 auto;
 }
 
 @media (min-width: 768px) {
@@ -861,7 +862,6 @@ html.sr .heading {
 .intro__container {
     width: 80%;
     max-width: 600px;
-    margin: 0 auto;
     display: grid;
     row-gap: 50px;
   }
@@ -878,7 +878,6 @@ html.sr .heading {
 
 .services__container {
     width: 90%;
-    margin: 0 auto;
     max-width: 1200px;
     text-align: center;
   }
@@ -951,7 +950,6 @@ html.sr .heading {
     width: 90%;
     max-width: 1200px;
     text-align: center;
-    margin: 0 auto;
   }
 
 .process__grid {
@@ -1018,7 +1016,6 @@ html.sr .heading {
     width: max-content;
     max-width: 90%;
     align-items: center;
-    margin: 0 auto;
   }
 
 @media (min-width: 1200px) {

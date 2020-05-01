@@ -6,7 +6,6 @@
     width: max-content;
     max-width: 90%;
     align-items: center;
-    margin: 0 auto;
 
     @mixin atLarge {
       grid-template-columns: 500px auto;
