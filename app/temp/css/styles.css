@@ -913,7 +913,6 @@ html.sr .heading {
 .services__image {
     width: 100px;
     height: 100px;
-    background-color: var(--gray);
     margin: 0 auto 30px auto;
   }
 
@@ -995,7 +994,6 @@ html.sr .heading {
 .process__image {
     width: 100px;
     height: 100px;
-    background-color: var(--gray);
   }
 
 .process__arrow {

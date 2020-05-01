@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg1362"
+   version="1.1"
+   viewBox="0 0 33.564289 33.564289"
+   height="33.564289mm"
+   width="33.564289mm">
+  <defs
+     id="defs1356">
+    <filter
+       id="filter17382-0-3"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         id="feColorMatrix17380-7-4"
+         values="2.354 0 0 0.952033 -0.677 0 2.354 0 0.952033 -0.677 0 0 2.354 0.952033 -0.677 0 0 0 1 0" />
+    </filter>
+    <filter
+       id="filter1350"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         id="feColorMatrix1348"
+         values="2.354 0 0 0.952033 -0.677 0 2.354 0 0.952033 -0.677 0 0 2.354 0.952033 -0.677 0 0 0 1 0" />
+    </filter>
+    <filter
+       id="filter17386-6-9"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         id="feColorMatrix17384-3-1"
+         values="2.354 0 0 0.952033 -0.677 0 2.354 0 0.952033 -0.677 0 0 2.354 0.952033 -0.677 0 0 0 1 0" />
+    </filter>
+    <filter
+       id="filter17390-2-2"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         id="feColorMatrix17388-2-4"
+         values="2.354 0 0 0.952033 -0.677 0 2.354 0 0.952033 -0.677 0 0 2.354 0.952033 -0.677 0 0 0 1 0" />
+    </filter>
+  </defs>
+  <metadata
+     id="metadata1359">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-43.231601,-96.875332)"
+     id="layer1">
+    <rect
+       ry="0"
+       rx="0"
+       y="97.782478"
+       x="44.138744"
+       height="31.75"
+       width="31.75"
+       id="rect1938"
+       style="opacity:0.95;fill:#12d25f;fill-opacity:0;stroke:none;stroke-width:0.17938748;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+    <path
+       style="stroke-width:0.26458332;filter:url(#filter17390-2-2)"
+       d="m 60.013643,103.00587 c -6.6315,0 -12.0575,5.426 -12.0575,12.0576 0,6.6319 5.426,12.0575 12.0575,12.0575 1.139,0 2.0096,-0.8706 2.0096,-2.0096 0,-0.5357 -0.2008,-1.0048 -0.5357,-1.3397 -0.3349,-0.3349 -0.5357,-0.804 -0.5357,-1.3397 0,-1.1389 0.8706,-2.0096 2.0095,-2.0096 h 2.4113 c 3.6843,0 6.6987,-3.0144 6.6987,-6.6986 -1e-4,-5.8947 -5.4258,-10.7179 -12.0577,-10.7179 z m -7.3684,12.0576 c -1.139,0 -2.0096,-0.8707 -2.0096,-2.0096 0,-1.1389 0.8706,-2.0096 2.0096,-2.0096 1.1388,0 2.0096,0.8707 2.0096,2.0096 0,1.1389 -0.8708,2.0096 -2.0096,2.0096 z m 4.0192,-5.3589 c -1.139,0 -2.0096,-0.8707 -2.0096,-2.0096 0,-1.1389 0.8706,-2.0096 2.0096,-2.0096 1.1388,0 2.0095,0.8707 2.0095,2.0096 0,1.1389 -0.8707,2.0096 -2.0095,2.0096 z m 6.6985,0 c -1.1388,0 -2.0095,-0.8707 -2.0095,-2.0096 0,-1.1389 0.8707,-2.0096 2.0095,-2.0096 1.139,0 2.0096,0.8707 2.0096,2.0096 0,1.1389 -0.8706,2.0096 -2.0096,2.0096 z m 4.0192,5.3589 c -1.1388,0 -2.0096,-0.8707 -2.0096,-2.0096 0,-1.1389 0.8708,-2.0096 2.0096,-2.0096 1.139,0 2.0096,0.8707 2.0096,2.0096 0,1.1389 -0.8706,2.0096 -2.0096,2.0096 z"
+       id="path17273-1" />
+  </g>
+</svg>
