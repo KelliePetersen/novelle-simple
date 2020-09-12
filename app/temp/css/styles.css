@@ -454,6 +454,13 @@ html.sr .heading {
   z-index: 15;
 }
 
+@media (min-width: 768px) {
+
+.menu {
+    right: 40px
+}
+  }
+
 @media (min-width: 1200px) {
 
 .menu {
@@ -540,11 +547,18 @@ html.sr .heading {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 50px;
+  padding: 0 25px;
   transition: 0s;
 }
 
 @media (min-width: 768px) {
+
+.nav {
+    padding: 0 50px
+}
+  }
+
+@media (min-width: 1200px) {
 
 .nav {
     height: 120px
@@ -558,12 +572,20 @@ html.sr .heading {
     letter-spacing: 12px;
     text-decoration: none;
     color: var(--black);
+    margin-top: 10px;
   }
 
 @media (min-width: 768px) {
 
 .nav__logo {
       font-size: 1.5rem;
+      margin-top: 0
+  }
+  }
+
+@media (min-width: 1200px) {
+
+.nav__logo {
       color: var(--white)
   }
   }
@@ -588,7 +610,7 @@ html.sr .heading {
     margin-right: 15px;
   }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
 
 .nav__logo-span {
       border: 2px solid var(--white)

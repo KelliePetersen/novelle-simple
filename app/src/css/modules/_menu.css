@@ -6,6 +6,10 @@
   height: 50px;
   z-index: 15;
 
+  @mixin atMedium {
+    right: 40px;
+  }
+
   @mixin atLarge {
     display: none;
   }

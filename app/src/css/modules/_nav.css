@@ -8,10 +8,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 50px;
+  padding: 0 25px;
   transition: 0s;
 
   @mixin atMedium {
+    padding: 0 50px;
+  }
+
+  @mixin atLarge {
     height: 120px;
   }
 
@@ -22,9 +26,14 @@
     letter-spacing: 12px;
     text-decoration: none;
     color: var(--black);
+    margin-top: 10px;
 
     @mixin atMedium {
       font-size: 1.5rem;
+      margin-top: 0;
+    }
+
+    @mixin atLarge {
       color: var(--white);
     }
 
@@ -48,7 +57,7 @@
     letter-spacing: 0;
     margin-right: 15px;
 
-    @mixin atMedium {
+    @mixin atLarge {
       border: 2px solid var(--white);
     }
   }
