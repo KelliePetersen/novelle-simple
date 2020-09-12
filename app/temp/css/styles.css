@@ -1081,12 +1081,26 @@ html.sr .heading {
     display: grid;
     grid-template-columns: -webkit-max-content auto;
     grid-template-columns: max-content auto;
-    grid-column-gap: 50px;
+    grid-column-gap: 25px;
     margin: 50px 0;
   }
 
+@media (min-width: 768px) {
+
+.about__item {
+      grid-column-gap: 50px
+  }
+  }
+
 .about__item:first-of-type {
-    margin-top: 100px;
+    margin-top: 60px;
+  }
+
+@media (min-width: 768px) {
+
+.about__item:first-of-type {
+      margin-top: 100px
+  }
   }
 
 @media (min-width: 768px) {
@@ -1133,9 +1147,16 @@ html.sr .heading {
   position: relative;
   width: 100vw;
   height: 100vh;
-  min-height: 700px;
-  margin: 150px 0 0 0;
+  min-height: 800px;
+  margin: 50px 0 0 0;
 }
+
+@media (min-width: 768px) {
+
+.contact {
+    margin-top: 150px
+}
+  }
 
 .contact__image {
     position: absolute;
