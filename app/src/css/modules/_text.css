@@ -41,6 +41,10 @@
     color: var(--white);
   }
 
+  &--lightgray {
+    color: #bbb;
+  }
+
   &--condensed {
     line-height: 1.5;
   }

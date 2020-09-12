@@ -768,6 +768,10 @@ html.sr .heading {
     color: var(--white);
   }
 
+.text--lightgray {
+    color: #bbb;
+  }
+
 .text--condensed {
     line-height: 1.5;
   }
