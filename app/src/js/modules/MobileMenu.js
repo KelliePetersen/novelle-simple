@@ -1,22 +1,24 @@
 class MobileMenu {
   constructor() {
-    this.menuIcon = document.getElementsByClassName('menu__button');
-    this.menu = document.getElementsByClassName('nav__list');
-    this.listItem = document.getElementsByClassName('nav__link');
+    this.menu = document.getElementsByClassName('menu__button');
+    this.list = document.getElementsByClassName('nav__list');
+    this.listItem = document.getElementsByClassName('nav__section');
     this.events();
   }
   events() {
-    this.menuIcon[0].addEventListener("click", this.toggleMenu.bind(this));
-    this.menuIcon[0].addEventListener("click", this.animateMenu.bind(this));
+    this.menu[0].addEventListener("click", this.toggleMenu.bind(this));
+    this.menu[0].addEventListener("click", this.animateMenu.bind(this));
+    Array.from(this.listItem).forEach(item => item.addEventListener("click", this.closeMenu.bind(this)));
   }
   toggleMenu() {
-    this.menu[0].classList.toggle("nav__list--visible");
-    Array.from(this.listItem).forEach(function (item) {
-      item.classList.toggle("nav__link--visible");
-    })
+    this.list[0].classList.toggle("nav__list--visible");
   }
   animateMenu() {
-    this.menuIcon[0].classList.toggle("open");
+    this.menu[0].classList.toggle("open");
+  }
+  closeMenu() {
+    this.menu[0].classList.remove("open");
+    this.list[0].classList.toggle("nav__list--visible");
   }
 }
 
