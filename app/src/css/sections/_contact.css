@@ -50,11 +50,12 @@
     color: var(--gray);
     font-size: 0.875em;
     letter-spacing: 0.5px;
+    margin-bottom: 5px;
   }
 
   &__input, &__message {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     background-color: transparent;
     color: var(--gray);
   }
@@ -89,6 +90,7 @@
     @mixin atMedium {
       display: inline-block;
       width: 300px;
+      margin-left: 10px;
     }
   }
 

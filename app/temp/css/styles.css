@@ -1157,11 +1157,12 @@ html.sr .heading {
     color: var(--gray);
     font-size: 0.875em;
     letter-spacing: 0.5px;
+    margin-bottom: 5px;
   }
 
 .contact__input, .contact__message {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     background-color: transparent;
     color: var(--gray);
   }
@@ -1201,7 +1202,8 @@ html.sr .heading {
 
 .contact__aside {
       display: inline-block;
-      width: 300px
+      width: 300px;
+      margin-left: 10px
   }
   }
 
