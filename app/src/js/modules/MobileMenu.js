@@ -8,6 +8,8 @@ class MobileMenu {
   events() {
     this.menu[0].addEventListener("click", this.toggleMenu.bind(this));
     this.menu[0].addEventListener("click", this.animateMenu.bind(this));
+    window.addEventListener('scroll', this.closeMenu.bind(this));
+    window.addEventListener('resize', this.closeMenu.bind(this));
     Array.from(this.listItem).forEach(item => item.addEventListener("click", this.closeMenu.bind(this)));
   }
   toggleMenu() {
@@ -18,7 +20,7 @@ class MobileMenu {
   }
   closeMenu() {
     this.menu[0].classList.remove("open");
-    this.list[0].classList.toggle("nav__list--visible");
+    this.list[0].classList.remove("nav__list--visible");
   }
 }
 
