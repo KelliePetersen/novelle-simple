@@ -768,6 +768,10 @@ html.sr .heading {
     color: var(--white);
   }
 
+.text--condensed {
+    line-height: 1.5;
+  }
+
 .text--hidden {
     display: none;
   }
@@ -912,7 +916,7 @@ html.sr .heading {
 .services__image {
     width: 100px;
     height: 100px;
-    margin: 0 auto 30px auto;
+    margin: 0 auto;
   }
 
 .work {
