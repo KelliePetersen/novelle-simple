@@ -552,7 +552,7 @@ html.sr .heading {
   }
 
 .nav__logo {
-    font-family: 'Playfair Display', 'Cormorant Garamond';
+    font-family: 'Playfair Display';
     font-weight: 400;
     font-size: 1rem;
     letter-spacing: 12px;
@@ -723,7 +723,7 @@ html.sr .heading {
   }
 
 .text__heading {
-    font-family: 'Playfair Display', 'Cormorant Garamond';
+    font-family: 'Playfair Display';
     font-weight: 400;
     font-size: 2.75rem;
     line-height: 1.5;
@@ -740,7 +740,7 @@ html.sr .heading {
 }
 
 .text__subheading {
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: 2px;
     color: var(--gray);
     font-size: 1rem;
@@ -1069,7 +1069,7 @@ html.sr .heading {
   }
 
 .about__number {
-    font-family: 'Playfair Display', 'Cormorant Garamond';
+    font-family: 'Playfair Display';
     font-weight: 400;
     font-size: 6rem;
     margin: 0;
@@ -1083,7 +1083,7 @@ html.sr .heading {
 }
 
 .about__item-heading {
-    font-family: 'Playfair Display', 'Cormorant Garamond';
+    font-family: 'Playfair Display';
     font-weight: 400;
     font-size: 2rem;
     letter-spacing: 0.5px;

@@ -46,14 +46,14 @@
   }
 
   &__number {
-    font-family: 'Playfair Display', 'Cormorant Garamond';
+    font-family: 'Playfair Display';
     font-weight: 400;
     responsive-font-size: 6rem;
     margin: 0;
   }
 
   &__item-heading {
-    font-family: 'Playfair Display', 'Cormorant Garamond';
+    font-family: 'Playfair Display';
     font-weight: 400;
     responsive-font-size: 2rem;
     letter-spacing: 0.5px;
