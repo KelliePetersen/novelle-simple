@@ -7,10 +7,6 @@
     margin: 0 auto;
   }
 
-  &--m-bottom {
-    margin-bottom: 40px;
-  }
-
   &--m-top {
     margin-top: -15px;
     margin-bottom: 25px;
