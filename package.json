@@ -12,17 +12,17 @@
     "build": "webpack"
   },
   "devDependencies": {
-    "@babel/core": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "autoprefixer": "^9.6.1",
-    "babel-loader": "^8.0.6",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "autoprefixer": "^9.8.6",
+    "babel-loader": "^8.1.0",
     "browser-sync": "^2.26.12",
     "del": "^3.0.0",
     "gulp": "^4.0.2",
-    "gulp-clean-css": "^4.2.0",
+    "gulp-clean-css": "^4.3.0",
     "gulp-htmlmin": "^5.0.1",
     "gulp-imagemin": "^5.0.3",
-    "gulp-modernizr": "^3.3.0",
+    "gulp-modernizr": "^3.4.1",
     "gulp-postcss": "^8.0.0",
     "gulp-rename": "^1.4.0",
     "gulp-rev": "^9.0.0",
@@ -33,17 +33,17 @@
     "gulp-watch": "^5.0.1",
     "gulp-zip": "^4.2.0",
     "postcss-import": "^12.0.1",
-    "postcss-mixins": "^6.2.2",
-    "postcss-nested": "^4.1.2",
-    "webpack": "^4.39.2",
-    "webpack-cli": "^3.3.7"
+    "postcss-mixins": "^6.2.3",
+    "postcss-nested": "^4.2.3",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
   },
   "dependencies": {
-    "gulp-cli": "^2.2.0",
-    "lazysizes": "^4.1.8",
+    "gulp-cli": "^2.3.0",
+    "lazysizes": "^5.2.2",
     "normalize.css": "^8.0.1",
     "picturefill": "^3.0.3",
     "rfs": "^8.0.4",
-    "scrollreveal": "^4.0.5"
+    "scrollreveal": "^4.0.7"
   }
 }
