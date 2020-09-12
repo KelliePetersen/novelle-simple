@@ -610,7 +610,7 @@ html.sr .heading {
   }
 
 .nav__list:hover .nav__link {
-      color: lightgray;
+      color: #999;
     }
 
 .nav__list:hover .nav__link:hover {

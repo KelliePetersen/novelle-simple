@@ -64,7 +64,7 @@
     }
 
     &:hover .nav__link {
-      color: lightgray;
+      color: #999;
     }
 
     &:hover .nav__link:hover {
