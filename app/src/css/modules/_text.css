@@ -21,7 +21,7 @@
     letter-spacing: 2px;
     color: var(--gray);
     responsive-font-size: 1rem;
-    margin: 0;
+    margin: 0 0 10px;
   }
 
   &__item-heading {

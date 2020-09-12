@@ -748,7 +748,7 @@ html.sr .heading {
     letter-spacing: 2px;
     color: var(--gray);
     font-size: 1rem;
-    margin: 0;
+    margin: 0 0 10px;
   }
 
 .text__item-heading {
