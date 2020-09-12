@@ -573,6 +573,7 @@ html.sr .heading {
     text-decoration: none;
     color: var(--black);
     margin-top: 10px;
+    z-index: 5;
   }
 
 @media (min-width: 768px) {
@@ -639,14 +640,40 @@ html.sr .heading {
       color: var(--black);
     }
 
+@media (min-width: 1200px) {
+
 .nav__list--small {
-      transform: scale(0.9);
-      transform-origin: center right;
+        transform: scale(0.9);
+        transform-origin: center right
+    }
+  }
+
+.nav__list--visible {
+      display: grid;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #fff;
+      padding: 50px 0;
+      width: 80vw;
+      text-align: center;
     }
 
 .nav__section {
     margin: 25px;
     list-style-type: none;
+  }
+
+.nav__section:nth-child(5) {
+      margin: 40px;
+    }
+
+@media (min-width: 1200px) {
+
+.nav__section:nth-child(5) {
+        margin: 25px
+    }
   }
 
 .nav__link {
