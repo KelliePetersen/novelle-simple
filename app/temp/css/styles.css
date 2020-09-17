@@ -452,6 +452,7 @@ html.sr .heading {
   width: 50px;
   height: 50px;
   z-index: 15;
+  border: none;
 }
 
 @media (min-width: 768px) {
@@ -468,11 +469,8 @@ html.sr .heading {
 }
   }
 
-@media (min-width: 768px) {
-
 .menu:hover > .menu__background, .menu:focus > .menu__background {
-      background-color: var(--main-color)
-  }
+    background-color: var(--main-color);
   }
 
 .menu__background {
@@ -520,18 +518,18 @@ html.sr .heading {
     top: 16px;
   }
 
-.menu__button--is-open .menu__line:nth-child(1) {
+.menu--is-open .menu__line:nth-child(1) {
     transform: rotate(45deg);
     top: -1px;
     left: 4px;
   }
 
-.menu__button--is-open .menu__line:nth-child(2) {
+.menu--is-open .menu__line:nth-child(2) {
     width: 0%;
     opacity: 0;
   }
 
-.menu__button--is-open .menu__line:nth-child(3) {
+.menu--is-open .menu__line:nth-child(3) {
     transform: rotate(-45deg);
     top: 17px;
     left: 4px;

@@ -5,6 +5,7 @@
   width: 50px;
   height: 50px;
   z-index: 15;
+  border: none;
 
   @mixin atMedium {
     right: 40px;
@@ -15,9 +16,7 @@
   }
 
   &:hover > &__background, &:focus > &__background {
-    @mixin atMedium {
-      background-color: var(--main-color);
-    }
+    background-color: var(--main-color);
   }
 
   &__background {
@@ -65,18 +64,18 @@
     top: 16px;
   }
 
-  &__button--is-open .menu__line:nth-child(1) {
+  &--is-open .menu__line:nth-child(1) {
     transform: rotate(45deg);
     top: -1px;
     left: 4px;
   }
 
-  &__button--is-open .menu__line:nth-child(2) {
+  &--is-open .menu__line:nth-child(2) {
     width: 0%;
     opacity: 0;
   }
 
-  &__button--is-open .menu__line:nth-child(3) {
+  &--is-open .menu__line:nth-child(3) {
     transform: rotate(-45deg);
     top: 17px;
     left: 4px;

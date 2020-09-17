@@ -13,11 +13,11 @@ class MobileMenu {
   }
   toggleMenu() {
     this.list.classList.toggle("nav__list--is-visible");
-    this.menuButton.classList.toggle("menu__button--is-open");
+    this.menuButton.classList.toggle("menu--is-open");
   }
   closeMenu() {
     this.list.classList.remove("nav__list--is-visible");
-    this.menuButton.classList.remove("menu__button--is-open");
+    this.menuButton.classList.remove("menu--is-open");
   }
 }
 
