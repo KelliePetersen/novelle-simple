@@ -8,16 +8,22 @@
   border-radius: 10px;
   box-shadow: 0px 0px 2px 2px rgba(11, 11, 11, 0.25);
   text-align: center;
+  background-color: var(--black);
   color: var(--white);
   font-size: 24px;
   text-decoration: none;
   padding-top: 8px;
+  transition: 0.1s;
   
   @mixin atLarge {
     display: none;
   }
 
-  &--hidden {
+  &:hover, &:focus {
+    transform: scale(1.1);
+  }
+
+  &--is-hidden {
     display: none;
   }
 }

@@ -65,18 +65,18 @@
     top: 16px;
   }
 
-  &__button.open .menu__line:nth-child(1) {
+  &__button--is-open .menu__line:nth-child(1) {
     transform: rotate(45deg);
     top: -1px;
     left: 4px;
   }
 
-  &__button.open .menu__line:nth-child(2) {
+  &__button--is-open .menu__line:nth-child(2) {
     width: 0%;
     opacity: 0;
   }
 
-  &__button.open .menu__line:nth-child(3) {
+  &__button--is-open .menu__line:nth-child(3) {
     transform: rotate(-45deg);
     top: 17px;
     left: 4px;

@@ -1,18 +1,18 @@
 class BackToTop {
   constructor() {
-    this.backToTopButton = document.getElementsByClassName('.back-to-top');
-    this.events();
+    this.backToTopButton = document.getElementById('back-to-top');
+    this.registerEvents();
   }
 
-  events() {
+  registerEvents() {
     window.addEventListener('scroll', this.scrollFunction.bind(this));
   }
 
   scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      this.backToTopButton[0].classList.remove('.back-to-top--hidden');
+      this.backToTopButton.classList.remove('back-to-top--is-hidden');
     } else {
-      this.backToTopButton[0].classList.add('.back-to-top--hidden');
+      this.backToTopButton.classList.add('back-to-top--is-hidden');
     }
   }
 }

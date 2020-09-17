@@ -1,26 +1,23 @@
 class MobileMenu {
   constructor() {
-    this.menu = document.getElementsByClassName('menu__button');
-    this.list = document.getElementsByClassName('nav__list');
-    this.listItem = document.getElementsByClassName('nav__section');
-    this.events();
+    this.menuButton = document.getElementById('menu-button');
+    this.list = document.getElementById('nav-list');
+    this.listItem = document.getElementsByClassName('nav-item');
+    this.registerEvents();
   }
-  events() {
-    this.menu[0].addEventListener("click", this.toggleMenu.bind(this));
-    this.menu[0].addEventListener("click", this.animateMenu.bind(this));
+  registerEvents() {
+    this.menuButton.addEventListener("click", this.toggleMenu.bind(this));
     window.addEventListener('scroll', this.closeMenu.bind(this));
     window.addEventListener('resize', this.closeMenu.bind(this));
     Array.from(this.listItem).forEach(item => item.addEventListener("click", this.closeMenu.bind(this)));
   }
   toggleMenu() {
-    this.list[0].classList.toggle("nav__list--visible");
-  }
-  animateMenu() {
-    this.menu[0].classList.toggle("open");
+    this.list.classList.toggle("nav__list--is-visible");
+    this.menuButton.classList.toggle("menu__button--is-open");
   }
   closeMenu() {
-    this.menu[0].classList.remove("open");
-    this.list[0].classList.remove("nav__list--visible");
+    this.list.classList.remove("nav__list--is-visible");
+    this.menuButton.classList.remove("menu__button--is-open");
   }
 }
 

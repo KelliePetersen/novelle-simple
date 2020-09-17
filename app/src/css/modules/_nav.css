@@ -38,13 +38,13 @@
       color: var(--white);
     }
 
-    &--small {
+    &--is-small {
       font-size: 1rem;
       letter-spacing: 8px;
       color: var(--black);
     }
 
-    &--small  &-span {
+    &--is-small  &-span {
       border-color: var(--black);
       padding: 5px 9px;
       margin-right: 10px;
@@ -81,14 +81,14 @@
       color: var(--black);
     }
 
-    &--small {
+    &--is-small {
       @mixin atLarge {
         transform: scale(0.9);
         transform-origin: center right;
       }
     }
 
-    &--visible {
+    &--is-visible {
       display: grid;
       position: fixed;
       top: 50%;
@@ -134,11 +134,11 @@
     }
   }
 
-  &--hidden {
+  &--is-hidden {
     opacity: 0;
   }
 
-  &--fixed {
+  &--is-fixed {
     position: fixed;
     background-color: var(--pure-white);
     height: 80px;

@@ -1,33 +1,33 @@
 class WidescreenMenu {
   constructor() {
-    this.nav = document.getElementsByClassName('nav');
-    this.navList = document.getElementsByClassName('nav__list');
-    this.navLogo = document.getElementsByClassName('nav__logo');
-    this.events();
+    this.nav = document.getElementById('nav');
+    this.navLogo = document.getElementById('nav-logo');
+    this.navList = document.getElementById('nav-list');
+    this.registerEvents();
   }
 
-  events() {
+  registerEvents() {
     window.addEventListener('scroll', this.hiddenMenu.bind(this));
     window.addEventListener('scroll', this.fixedMenu.bind(this));
   }
 
   hiddenMenu() {
     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-      this.nav[0].classList.add('nav--hidden');
+      this.nav.classList.add('nav--is-hidden');
     } else {
-      this.nav[0].classList.remove('nav--hidden');
+      this.nav.classList.remove('nav--is-hidden');
     }
   }
 
   fixedMenu() {
     if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-      this.nav[0].classList.add('nav--fixed');
-      this.navList[0].classList.add('nav__list--small');
-      this.navLogo[0].classList.add('nav__logo--small');
+      this.nav.classList.add('nav--is-fixed');
+      this.navList.classList.add('nav__list--is-small');
+      this.navLogo.classList.add('nav__logo--is-small');
     } else {
-      this.nav[0].classList.remove('nav--fixed');
-      this.navList[0].classList.remove('nav__list--small');
-      this.navLogo[0].classList.remove('nav__logo--small');
+      this.nav.classList.remove('nav--is-fixed');
+      this.navList.classList.remove('nav__list--is-small');
+      this.navLogo.classList.remove('nav__logo--is-small');
     }
   }
 }
