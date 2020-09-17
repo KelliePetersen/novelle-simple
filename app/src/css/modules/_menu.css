@@ -14,7 +14,7 @@
     display: none;
   }
 
-  &:hover > &__background {
+  &:hover > &__background, &:focus > &__background {
     @mixin atMedium {
       background-color: var(--main-color);
     }

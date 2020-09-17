@@ -470,7 +470,7 @@ html.sr .heading {
 
 @media (min-width: 768px) {
 
-.menu:hover > .menu__background {
+.menu:hover > .menu__background, .menu:focus > .menu__background {
       background-color: var(--main-color)
   }
   }
@@ -591,6 +591,10 @@ html.sr .heading {
   }
   }
 
+.nav__logo:focus {
+      transform: scale(1.1);
+    }
+
 .nav__logo--is-small {
       font-size: 1rem;
       letter-spacing: 8px;
@@ -683,6 +687,10 @@ html.sr .heading {
     transition: color 0.25s;
   }
 
+.nav__link:focus {
+      color: var(--main-color);
+    }
+
 .nav__contact {
     text-decoration: none;
     color: var(--black);
@@ -692,7 +700,7 @@ html.sr .heading {
     transition: all 0.2s;
   }
 
-.nav__contact:hover {
+.nav__contact:hover, .nav__contact:focus {
       background-color: var(--black);
       color: white;
     }
@@ -769,7 +777,12 @@ html.sr .heading {
           text-decoration-line: none;
   font-weight: 600;
   margin-top: 50px;
+  transition: background-color 0.2s;
 }
+
+.button:hover, .button:focus {
+    background-color: var(--main-color);
+  }
 
 .text__paragraph {
     line-height: 1.75;
@@ -1249,6 +1262,11 @@ html.sr .heading {
     color: var(--gray);
   }
 
+.contact__input:hover, .contact__input:focus, .contact__message:hover, .contact__message:focus {
+      outline: none;
+      border-color: var(--main-color);
+    }
+
 .contact__input {
     border: none;
     border-bottom: solid 2px var(--gray);
@@ -1294,6 +1312,11 @@ html.sr .heading {
     text-decoration: none;
     border-bottom: 1px solid var(--black);
   }
+
+.contact__aside-span:hover, .contact__aside-span:focus {
+      color: var(--main-color);
+      border-color: var(--main-color);
+    }
 
 .footer__subfooter {
     background-color: var(--black);

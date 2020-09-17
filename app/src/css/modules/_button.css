@@ -7,4 +7,9 @@
   text-decoration-line: none;
   font-weight: 600;
   margin-top: 50px;
+  transition: background-color 0.2s;
+
+  &:hover, &:focus {
+    background-color: var(--main-color);
+  }
 }

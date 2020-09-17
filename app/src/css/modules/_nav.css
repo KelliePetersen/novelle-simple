@@ -38,6 +38,10 @@
       color: var(--white);
     }
 
+    &:focus {
+      transform: scale(1.1);
+    }
+
     &--is-small {
       font-size: 1rem;
       letter-spacing: 8px;
@@ -118,6 +122,10 @@
     color: var(--black);
     font-weight: 600;
     transition: color 0.25s;
+
+    &:focus {
+      color: var(--main-color);
+    }
   }
 
   &__contact {
@@ -128,7 +136,7 @@
     padding: 20px 40px;
     transition: all 0.2s;
 
-    &:hover {
+    &:hover, &:focus {
       background-color: var(--black);
       color: white;
     }
