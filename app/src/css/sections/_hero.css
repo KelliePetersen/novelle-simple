@@ -7,8 +7,9 @@
   &__image {
     display: none;
     height: 100%;
-    min-width: 50%;
+    width: 50%;
     object-fit: cover;
+    object-position: left;
 
     @mixin atMedium {
       display: block;

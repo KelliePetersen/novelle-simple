@@ -871,9 +871,11 @@ html.sr .heading {
 .hero__image {
     display: none;
     height: 100%;
-    min-width: 50%;
+    width: 50%;
     -o-object-fit: cover;
        object-fit: cover;
+    -o-object-position: left;
+       object-position: left;
   }
 
 @media (min-width: 768px) {
@@ -1203,10 +1205,23 @@ html.sr .heading {
   }
 
 .contact__image {
+    display: none;
     position: absolute;
     top: 0;
     right: 0;
     height: 100%;
+    width: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: right;
+       object-position: right;
+  }
+
+@media (min-width: 768px) {
+
+.contact__image {
+      display: block
+  }
   }
 
 .contact__page {
